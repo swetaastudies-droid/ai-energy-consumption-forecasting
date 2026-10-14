@@ -1,0 +1,22 @@
+{
+  "best_model": "Random Forest",
+  "selection_metric": "RMSE_kW",
+  "training_start": "2006-12-23 18:00:00",
+  "training_end": "2010-01-26 10:00:00",
+  "test_start": "2010-01-26 11:00:00",
+  "test_end": "2010-11-26 20:00:00",
+  "training_rows": 26263,
+  "testing_rows": 6566,
+  "feature_columns": [
+    "hour",
+    "dayofweek",
+    "month",
+    "is_weekend",
+    "lag_1",
+    "lag_24",
+    "lag_168",
+    "rolling_mean_24",
+    "rolling_mean_168"
+  ],
+  "note": "Test period was used for model selection; use a separate validation period for independent final evaluation."
+}

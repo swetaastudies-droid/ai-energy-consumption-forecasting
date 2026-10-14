@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments and secrets
+.venv/
+venv/
+.env
+
+# Raw and processed data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Generated models
+models/*.joblib
+
+# Generated outputs
+outputs/forecasts/*
+outputs/simulation/*
+outputs/metrics/*
+outputs/test_features.csv
+outputs/test_labels.csv
+outputs/predictions.csv
+outputs/anomaly_predictions.csv
+
+# Keep project screenshots and source code
+!outputs/figures/
